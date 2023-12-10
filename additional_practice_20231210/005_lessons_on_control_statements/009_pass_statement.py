@@ -6,11 +6,14 @@
 - Call both functions
 """
 
+
 def my_function() -> None:
     print("This is a placeholder function")
 
+
 def my_nothing_function() -> None:
     pass
+
 
 my_function()
 my_nothing_function()
