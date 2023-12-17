@@ -1,7 +1,7 @@
 # Practices on Control Statements
 
 ## Challenge 1: If-Else Statement
-- Define an integer object `num` and assign its value to `10`
+- Define an integer object `10` and assign its address to a new variable (or pointer) `num`
 - Implement an if-else statement to check if `num` is greater than `5`
   - If true, print "Number is greater than 5"
   - Else, print "Number is not greater than 5"
@@ -12,7 +12,7 @@ Number is greater than 5
 ```
 
 ## Challenge 2: Nested If-Else Statement
-- Define an integer object age and assign its value to 18
+- Define an integer object `18` and assign its address to a variable `age`
 - Implement a nested if-else statement to check if age is greater than 18 or equal to 18
 - If greater, print "You are an adult"
 - Else if equal, print "You are a teenager"
@@ -24,7 +24,7 @@ You are a teenager
 ```
 
 ## Challenge 3: If-Elif-Else Statement
-- Define an integer object marks and assign its value to 85
+- Define an integer object `85` and assign its address to variable `marks`
 - Implement an if-elif-else statement to determine the grade based on marks
 - If marks is greater than or equal to 90, print "Grade A"
 - Else if marks is greater than or equal to 80, print "Grade B"
@@ -69,7 +69,7 @@ python3 005_nested_for_loop.py
 ```
 
 ## Challenge 6: While Loop
-- Define an integer object count and assign its value to 0
+- Define an integer object `0` and assign its address to variable `count`
 - Implement a while loop to print numbers from 0 to 4
 
 ```commandline
