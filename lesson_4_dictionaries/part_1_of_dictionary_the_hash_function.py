@@ -27,3 +27,5 @@ my_list: list[str | None] = [None] * length_of_list
 wei_xuan: str = "Wei Xuan"
 weixuan_index: int = hash(wei_xuan) % length_of_list
 print(weixuan_index)
+my_list[weixuan_index] = wei_xuan
+print(my_list[weixuan_index])
