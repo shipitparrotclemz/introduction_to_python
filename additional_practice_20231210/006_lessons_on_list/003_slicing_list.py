@@ -4,5 +4,5 @@
 - Slice and print elements from index 2 to 5 from my_list
 """
 my_list: list[int] = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-sliced_list: list[int] = my_list[2:5]
+sliced_list: list[int] = my_list[2:6]
 print(sliced_list)
