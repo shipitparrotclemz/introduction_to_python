@@ -20,11 +20,13 @@ python3 002_accessing_elements_in_list.py
 
 ## Challenge 3: Slicing a List
 - Define a list object my_list containing integers 1 through 10
-- Slice and print elements from index 2 to 5 from my_list
+- Slice for items from index 2 to index 5 inclusive
+- print elements from index 2 to 5 from my_list
+- Key concept: the end index is not inclusive; you have to provide index 6 as your input for the end index
 
 ```commandline
 python3 003_slicing_list.py 
-[3, 4, 5]
+[3, 4, 5, 6]
 ```
 
 ## Challenge 4: Modifying Elements in a List
