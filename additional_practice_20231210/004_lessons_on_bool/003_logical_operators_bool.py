@@ -5,6 +5,6 @@
 - Print both_true
 """
 bool1: bool = True
-bool2: bool = False
-both_true: bool = bool1 and bool2
+bool2: bool = True
+both_true: bool = bool1 or bool2
 print(both_true)

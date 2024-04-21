@@ -12,8 +12,10 @@ True
 ```
 
 ## Challenge 2: Using Comparison Operators
-- Define two integer objects 10 and 5 and assign their values to variables named num1 and num2 respectively
-- Define a boolean object that checks if num1 is greater than num2 using the > operator and assign it to a variable named greater_than
+- Define two integer objects 10 and 5 and assign their values to 
+- variables named num1 and num2 respectively
+- Define a boolean object that checks if num1 is greater 
+- than num2 using the > operator and assign it to a variable named greater_than
 - Print greater_than
 
 ```commandline
@@ -22,8 +24,10 @@ True
 ```
 
 ## Challenge 3: Logical Operators
-- Define two boolean objects True and False and assign their values to variables named bool1 and bool2 respectively
-- Define a boolean object that checks if both bool1 and bool2 are True using the and operator and assign it to a variable named both_true
+- Define two boolean objects True and False and 
+- assign their values to variables named bool1 and bool2 respectively
+- Define a boolean object that checks if both bool1 and bool2 are True using 
+- the and operator and assign it to a variable named both_true
 - Print both_true
 
 ```
@@ -32,8 +36,11 @@ False
 ```
 
 ## Challenge 4: Combining Logical and Comparison Operators
-- Define three integer objects 8, 4, and 10 and assign their values to variables named num1, num2, and num3 respectively
-- Define a boolean object that checks if num1 multiplied by num2 is greater than num3 using a combination of *, >, and and operators and assign it to a variable named result
+- Define three integer objects 8, 4, and 10 and 
+- assign their values to variables named num1, num2, and num3 respectively
+- Define a boolean object that checks if num1 multiplied by num2 is 
+- greater than num3 using a combination of *, >, and and 
+- operators and assign it to a variable named result
 - Print result
 
 ```commandline
@@ -52,8 +59,10 @@ True
 ```
 
 ## Challenge 6: Checking for Equality
-- Define two string objects "hello" and "Hello" and assign their values to variables named str1 and str2 respectively
-- Define a boolean object that checks if str1 is equal to str2 using the == operator and assign it to a variable named equal
+- Define two string objects "hello" and "Hello" and assign their 
+- values to variables named str1 and str2 respectively
+- Define a boolean object that checks if str1 is equal to str2 
+- using the == operator and assign it to a variable named equal
 - Print equal
 
 ```commandline
@@ -62,8 +71,10 @@ False
 ```
 
 ## Challenge 7: Checking for Inequality
-- Define two integer objects 10 and 5 and assign their values to variables named num1 and num2 respectively
-- Define a boolean object that checks if num1 is not equal to num2 using the != operator and assign it to a variable named not_equal
+- Define two integer objects 10 and 5 and assign their 
+- values to variables named num1 and num2 respectively
+- Define a boolean object that checks if num1 is not equal to num2 
+- using the != operator and assign it to a variable named not_equal
 - Print not_equal
 
 ```commandline
@@ -72,8 +83,11 @@ True
 ```
 
 ## Challenge 8: Combining Logical Operators
-- Define three boolean objects True, False, and True and assign their values to variables named bool1, bool2, and bool3 respectively
-- Define a boolean object that checks if either bool1 or bool2 is True, and bool3 is False using the or, and operators and assign it to a variable named result
+- Define three boolean objects True, False, and True and 
+- assign their values to variables named bool1, bool2, and bool3 respectively
+- Define a boolean object that checks if either bool1 or bool2 is True, 
+- and bool3 is False using the or, and operators and assign it to a variable
+- named result
 - Print result
 
 ```commandline
@@ -83,7 +97,8 @@ True
 
 ## Challenge 9: Checking for Membership
 - Define a string object "Python" and assign its value to a variable named my_str
-- Define a boolean object that checks if "th" is present in my_str using the in operator and assign it to a variable named is_present
+- Define a boolean object that checks if "th" is present 
+- in my_str using the in operator and assign it to a variable named is_present
 - Print is_present
 
 ```commandline
@@ -93,7 +108,8 @@ True
 
 ## Challenge 10: Checking for Empty Values
 - Define an empty list [] and assign it to a variable named empty_list
-- Define a boolean object that checks if empty_list is empty using the not operator and assign it to a variable named is_empty
+- Define a boolean object that checks if empty_list is empty using the 
+- not operator and assign it to a variable named is_empty
 - Print is_empty
 
 ```commandline
