@@ -277,3 +277,20 @@ filtered_df
 3         elson  scam auntie money
 4  elson gorgor  scam auntie money
 ```
+
+## Concept 9: Filtering rows by condition + only for specific column names
+- `df.loc[[False, False], ["name"]]`
+
+## Concept 10: How to calculate mean across an age column
+- `df["age"].mean()`
+
+## Concept 11: How to calculate median across an age column
+- `df["age"].median()`
+
+## Concept 12: (Analogous to GROUP BY in SQL) How to group rows in pd.DataFrame by column
+- `df.group_by`
+- Lets say you have 10,000 grandmas, from different towns
+- How do you group the 10,000 rows of grandmas, by their town column
+
+## Concept 13: (Analogous to JOIN in SQL) How to find ahma that exists in Yew Tee Community Club but not in CCK Community Club
+- `pd.merge`
