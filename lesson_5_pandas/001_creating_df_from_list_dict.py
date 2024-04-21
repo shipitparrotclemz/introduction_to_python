@@ -1,7 +1,11 @@
 import pandas as pd
-from typing import Any
 
-my_list: list[dict[str, Any]] = [
+my_list: list[dict[str, str]] = [
+    # name,likes
+    # xuan,chocolate cake
+    # aaron,taiwan girls
+    # clement, short taiwan girls
+    # elson,scam auntie money
     {
         "name": "xuan", "likes": "chocolate cake",
     },
