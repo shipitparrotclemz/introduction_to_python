@@ -154,3 +154,44 @@ if __name__ == "__main__":
 - `pandas.Series` -> column itself
 
 ## Concept 1: Reading a CSV into a pandas.DataFrame
+
+```python
+python 001_creating_df_from_list_dict.py
+      name               likes
+0     xuan      chocolate cake
+1    aaron        taiwan girls
+2  clement  short taiwan girls
+3    elson   scam auntie money
+
+```
+
+## Concept 2: Reading a CSV file
+
+```python
+python 002_reading_csv_into_df.py
+      name               likes
+0     xuan      chocolate cake
+1    aaron        taiwan girls
+2  clement  short taiwan girls
+3    elson   scam auntie money
+```
+
+## Concept 3: Reading a Excel file
+
+```python
+python 003_reading_excel_into_df.py
+      name               likes
+0     xuan     chocolate cakes
+1    aaron        taiwan girls
+2  clement  short taiwan girls
+3    elson   scam auntie money
+```
+
+## Concept 4: Filter Row by Index
+
+```python
+python 004_filter_rows_by_index_with_iloc.py 
+    name           likes
+0   xuan  chocolate cake
+1  aaron    taiwan girls
+```
