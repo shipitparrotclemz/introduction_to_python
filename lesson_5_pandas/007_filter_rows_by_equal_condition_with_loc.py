@@ -26,8 +26,9 @@ df: pd.DataFrame = pd.DataFrame(my_list)
 Gives back
 False
 False
+False
 True
-True
+False
 """
 equal_elson: pd.Series = df["name"] == "elson"
 print("equal_elson")
