@@ -26,6 +26,7 @@ df: pd.DataFrame = pd.DataFrame(my_list)
 Gives back
 False
 False
+False
 True
 True
 """
