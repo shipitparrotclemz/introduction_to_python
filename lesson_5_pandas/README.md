@@ -196,10 +196,50 @@ python 003_reading_excel_into_df.py
 ## Concept 4: Filter Row by Index
 - Use Exercise 1; Create a `list[dict[str,str]]`
 - Pass it to the `pd.DataFrame` constructor
-- Call `df.iloc[0:1, :]` to filter only the first two rows
+- Call `df.iloc[0:2, :]` to filter for the first two rows, with all columns
 
 ```python
 python 004_filter_rows_by_index_with_iloc.py 
+    name           likes
+0   xuan  chocolate cake
+1  aaron    taiwan girls
+```
+
+## Concept 5: Filter Columns by Index
+- Use Exercise 1; Create a `list[dict[str, str]]`, add another columnage
+- Pass it to the `pd.DataFrame` constructor
+- Call `df.iloc[:, 0:2]` to get all rows, but filter for first two columns
+
+```python
+python 005_filter_columns_by_index_with_iloc.py 
+df
+      name               likes  age
+0     xuan      chocolate cake   29
+1    aaron        taiwan girls   29
+2  clement  short taiwan girls   29
+3    elson   scam auntie money   29
+filtered_df
+      name               likes
+0     xuan      chocolate cake
+1    aaron        taiwan girls
+2  clement  short taiwan girls
+3    elson   scam auntie money
+```
+
+## Concept 6: Filter by both Rows and Columns by Index
+- Use Exercise 1; Create a `list[dict[str, str]]`, add another columnage
+- Pass it to the `pd.DataFrame` constructor
+- Call `df.iloc[0:2, 0:2]` to get first two rows, filter for first two columns
+
+```python
+python 006_filter_rows_and_columns_by_index_with_iloc.py 
+df
+      name               likes  age
+0     xuan      chocolate cake   29
+1    aaron        taiwan girls   29
+2  clement  short taiwan girls   29
+3    elson   scam auntie money   29
+filtered_df
     name           likes
 0   xuan  chocolate cake
 1  aaron    taiwan girls
