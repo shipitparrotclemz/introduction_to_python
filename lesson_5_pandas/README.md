@@ -244,3 +244,36 @@ filtered_df
 0   xuan  chocolate cake
 1  aaron    taiwan girls
 ```
+
+## Concept 7: Filtering rows by equal condition; Filter only for rows whose name == "elson"
+
+```commandline
+python 007_filter_rows_by_equal_condition_with_loc.py 
+equal_elson
+0    False
+1    False
+2    False
+3     True
+4    False
+Name: name, dtype: bool
+filtered_df
+    name              likes
+3  elson  scam auntie money
+```
+
+## Concept 8: Filtering rows by condition; Filter only for rows whose name contains "elson"
+
+```commandline
+python 008_filter_rows_by_contain_condition_with_loc.py 
+contains_elson
+0    False
+1    False
+2    False
+3     True
+4     True
+Name: name, dtype: bool
+filtered_df
+           name              likes
+3         elson  scam auntie money
+4  elson gorgor  scam auntie money
+```
