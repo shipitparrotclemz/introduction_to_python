@@ -153,7 +153,9 @@ if __name__ == "__main__":
 
 - `pandas.Series` -> column itself
 
-## Concept 1: Reading a CSV into a pandas.DataFrame
+## Concept 1: Reading a list[dict[str, str]] (in-memory) into a pandas.DataFrame
+- Create a `list[dict[str, str]]`
+- Pass it to the `pd.DataFrame` constructor
 
 ```python
 python 001_creating_df_from_list_dict.py
@@ -166,6 +168,8 @@ python 001_creating_df_from_list_dict.py
 ```
 
 ## Concept 2: Reading a CSV file
+- Create a CSV file (`.csv`)
+- Read the CSV file with `pd.read_csv(path_to_csv)`
 
 ```python
 python 002_reading_csv_into_df.py
@@ -177,6 +181,8 @@ python 002_reading_csv_into_df.py
 ```
 
 ## Concept 3: Reading a Excel file
+- Create an Excel file (`.xlsx`)
+- Read the excel file with `pd.read_excel(path_to_excel)`
 
 ```python
 python 003_reading_excel_into_df.py
@@ -188,6 +194,9 @@ python 003_reading_excel_into_df.py
 ```
 
 ## Concept 4: Filter Row by Index
+- Use Exercise 1; Create a `list[dict[str,str]]`
+- Pass it to the `pd.DataFrame` constructor
+- Call `df.iloc[0:1, :]` to filter only the first two rows
 
 ```python
 python 004_filter_rows_by_index_with_iloc.py 
