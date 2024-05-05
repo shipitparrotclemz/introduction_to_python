@@ -10,5 +10,8 @@ if __name__ == "__main__":
     # this means an integer that can store -2**63 to 2**63
     # that is -9.223372e+18 to 9.223372e+18
     # now, we will purposely set "name" column to "string"
-    df["name"] = df["name"].astype("string")
+    copy_of_name_column_as_string: pd.Series = df["name"].astype("string")
+    # set the dataframe "name" column pointer, to point to the new column instead
+    # yes, df["name"] gives you back a pointer
+    df["name"] = copy_of_name_column_as_string
     print(df.info())
