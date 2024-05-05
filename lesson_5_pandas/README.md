@@ -278,8 +278,20 @@ filtered_df
 4  elson gorgor  scam auntie money
 ```
 
-## Concept 9: Filtering rows by condition + only for specific column names
-- `df.loc[[False, False], ["name"]]`
+## Concept 9: Increase salary in a column by 10%
+
+Step 1: Load DataFrame
+- `df: pd.DataFrame = df.read_csv("your_file.csv")`
+
+Step 2: Select and make a copy of the salary column with
+- `copy_of_salary_column: pd.Series = df.loc[:, ["salary"]]`
+
+Step 3: Make yet another copy, but this with increased salary
+- `copy_of_increased_salary_column: pd.Series = copy_of_salary_column * 1.1`
+- This will have the salary column multiplied by 1.1
+
+Step 4: Assign this second increased salary column to your data frame
+- `df["salary"] = copy_of_increased_salary_column`
 
 ## Concept 10: How to calculate mean across an age column
 - `df["age"].mean()`
