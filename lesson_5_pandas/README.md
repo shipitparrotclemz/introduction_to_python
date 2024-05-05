@@ -281,7 +281,7 @@ filtered_df
 ## Concept 9: Increase salary in a column by 10%
 
 Step 1: Load DataFrame
-- `df: pd.DataFrame = df.read_csv("your_file.csv")`
+- `df: pd.DataFrame = pd.read_csv("your_file.csv")`
 
 Step 2: Select and make a copy of the salary column with
 - `copy_of_salary_column: pd.Series = df.loc[:, ["salary"]]`
@@ -293,16 +293,90 @@ Step 3: Make yet another copy, but this with increased salary
 Step 4: Assign this second increased salary column to your data frame
 - `df["salary"] = copy_of_increased_salary_column`
 
-## Concept 10: How to calculate mean across an age column
+## Concept 10: Checking Types of a pd.DataFrame with `df.info()`
+
+1. pd.DataFrame has columns (pd.Series), and pandas by default, will infer the type of the column when you load it
+
+In the example below, we created a simple pd.DataFrame
+- We can see pandas, by default, correctly detects the age column is of type int64
+- The name is not correctly inferred as a string, but that's fine
+
+```python
+>>> import pandas as pd
+>>> df = pd.DataFrame([{"name": "xuan", "age": 29}])
+>>> df.info()
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 1 entries, 0 to 0
+Data columns (total 2 columns):
+ #   Column  Non-Null Count  Dtype 
+---  ------  --------------  ----- 
+ 0   name    1 non-null      object
+ 1   age     1 non-null      int64 
+dtypes: int64(1), object(1)
+memory usage: 148.0+ bytes
+```
+
+## Concept 11: Changing the type of a column (pd.Series) in a table (pd.DataFrame)
+
+1. Before creating the boolean mask for filtering with df.loc, please remember to ensure the column you are filtered by is of the right type
+
+If it is not the right type, you can change the column type with the following
+
+```
+df["name"] = df["name"].astype("string")
+```
+
+```python
+python 011_changing_type_of_column.py
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 5 entries, 0 to 4
+Data columns (total 2 columns):
+ #   Column  Non-Null Count  Dtype 
+---  ------  --------------  ----- 
+ 0   name    5 non-null      object
+ 1   salary  5 non-null      int64 
+dtypes: int64(1), object(1)
+memory usage: 212.0+ bytes
+None
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 5 entries, 0 to 4
+Data columns (total 2 columns):
+ #   Column  Non-Null Count  Dtype 
+---  ------  --------------  ----- 
+ 0   name    5 non-null      string
+ 1   salary  5 non-null      int64 
+dtypes: int64(1), string(1)
+memory usage: 212.0 bytes
+None
+```
+
+## Concept 12: Purposely creating an error during filtering with an incorrect column type
+
+1. If you don't ensure you have the right type, you can get an Exception when filtering, or worse, silently fail and perform a bad filter
+
+Here is an example:
+- We purposely change the type of "age" column to a bad type; String, and try filtering by int
+- We will get an exception
+
+```
+# purposely set salary to be the wrong type; str
+df["salary"] = df["salary"].astype("str")
+# now we create a bad boolean mask that filters for salary by an int
+# this will fail of course; we can't compare str with int
+df = df.loc[df["salary"] > 30]
+TypeError: '>' not supported between instances of 'str' and 'int'```
+```
+
+## Concept 13: How to calculate mean across an age column
 - `df["age"].mean()`
 
-## Concept 11: How to calculate median across an age column
+## Concept 14: How to calculate median across an age column
 - `df["age"].median()`
 
-## Concept 12: (Analogous to GROUP BY in SQL) How to group rows in pd.DataFrame by column
+## Concept 15: (Analogous to GROUP BY in SQL) How to group rows in pd.DataFrame by column
 - `df.group_by`
 - Lets say you have 10,000 grandmas, from different towns
 - How do you group the 10,000 rows of grandmas, by their town column
 
-## Concept 13: (Analogous to JOIN in SQL) How to find ahma that exists in Yew Tee Community Club but not in CCK Community Club
+## Concept 16: (Analogous to JOIN in SQL) How to find ahma that exists in Yew Tee Community Club but not in CCK Community Club
 - `pd.merge`
