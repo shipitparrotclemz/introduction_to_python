@@ -367,6 +367,10 @@ Use the subsequent 63 bits for the actual number (without sign)
 
 Hence, the range of int64 is from -2**63 to 2**63
 
+We use int32 for mesos limit
+
+1st bit for sign, 2**31 for value -> 2,147,483,648
+
 ## Concept 11: Changing the type of a column (pd.Series) in a table (pd.DataFrame)
 
 1. Before creating the boolean mask for filtering with df.loc, please remember to ensure the column you are filtered by is of the right type
