@@ -122,6 +122,9 @@ class Cat:
         self.name: str = name
         self.age: int = age
         self.color: str = color
+        
+    def meow(self) -> None:
+        print("meow")
 
 if __name__ == "__main__":
     """
@@ -315,6 +318,54 @@ Data columns (total 2 columns):
 dtypes: int64(1), object(1)
 memory usage: 148.0+ bytes
 ```
+
+### Q: What is int64?
+
+Short Answer:
+
+It represents a number from -2**63 to 2**63
+
+Long Answer:
+
+Concept 1: Computers represent data with bits; switches that can either be 0 or 1
+
+0 -> open circuit
+1 -> closed circuit
+
+int64? -> integer represented by 64 bits
+1 bit = 1 switch
+
+Concept 2: Possible numbers represented with bits follow 2**number_of_bits
+
+With 1 bit, we can represent 2 numbers (2**1)
+
+0 -> 1st state
+1 -> 2nd state
+
+With 2 bits, we can represent 4 numbers (2**2)
+
+00 -> 0
+01 -> 1
+10 -> 2
+11 -> 3
+
+With 3 bits, we can represent 8 numbers (2**3)
+
+000 -> 0
+001 -> 1
+010 -> 2
+011 -> 3
+100 -> 4
+101 -> 5
+110 -> 6
+111 -> 7
+
+With 64 bits, we can represent 1.8 * 10**19 (2**64)
+
+1st bit for sign -> positive or negative
+Use the subsequent 63 bits for the actual number (without sign)
+
+Hence, the range of int64 is from -2**63 to 2**63
 
 ## Concept 11: Changing the type of a column (pd.Series) in a table (pd.DataFrame)
 
