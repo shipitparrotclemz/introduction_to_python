@@ -127,6 +127,11 @@ memory usage: 356.0+ bytes
 
 series.dtype
 
+```commandline
+(your-project-name-py3.11) clement@Clements-Laptop lesson_6_revision_on_pandas % python 005_check_type_of_a_single_column.py 
+object
+```
+
 6. Casting a pd.Series (column) in a pd.DataFrame into another type
 
 This returns a new pd.Series but with the type casted to int32
