@@ -82,6 +82,28 @@ This returns a copy of your pd.DataFrame, if inplace=False
 
 - pd.DataFrame.sort_values(list_of_columns, ascending=True, inplace=False)
 
+```commandline
+(your-project-name-py3.11) clement@Clements-Laptop lesson_6_revision_on_pandas % python 003_sorting_data_frame.py 
+sorted_df
+         name              title  age           town
+0       aaron           lovebird   32        yew tee
+1     clement            wagebro   29  choa chu kang
+2       elson   ahmad of malacca   29        hougang
+4      eugene   prince of taiwan   29  choa chu kang
+5        gabe           casanova   29        yew tee
+6    wei xuan  play grandma card   29  choa chu kang
+3  zheng yang    targetted by xi   29          tibet
+df -> to show you the original df is not edited
+         name              title  age           town
+0       aaron           lovebird   32        yew tee
+1     clement            wagebro   29  choa chu kang
+2       elson   ahmad of malacca   29        hougang
+3  zheng yang    targetted by xi   29          tibet
+4      eugene   prince of taiwan   29  choa chu kang
+5        gabe           casanova   29        yew tee
+6    wei xuan  play grandma card   29  choa chu kang
+```
+
 4. Check the type of all columns in a pd.DataFrame
 
 df.info()
