@@ -57,6 +57,16 @@ This returns a copy of your pd.DataFrame / columns (pd.Series)
 - pd.DataFrame.loc[mask, list_of_columns]
 - pd.DataFrame.iloc[range_of_row_indexes, range_of_column_indexes]
 
+Getting first 3 rows with iloc
+
+```commandline
+(your-project-name-py3.11) clement@Clements-Laptop lesson_6_revision_on_pandas % python 002_select_first_three_rows_with_iloc.py 
+      name             title  age           town
+0    aaron          lovebird   32        yew tee
+1  clement           wagebro   29  choa chu kang
+2    elson  ahmad of malacca   29        hougang
+```
+
 3. Ordering rows in Data Frame by column
 
 This returns a copy of your pd.DataFrame, if inplace=False
