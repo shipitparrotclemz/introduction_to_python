@@ -141,3 +141,9 @@ df["my_age"].astype("int32")
 Then you can assign this copy back to the pd.DataFrame
 
 df["my_age"] = df["my_age"].astype("int32")
+
+```commandline
+(your-project-name-py3.11) clement@Clements-Laptop lesson_6_revision_on_pandas % python 006_changing_type_of_column.py
+string
+string
+```
