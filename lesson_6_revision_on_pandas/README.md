@@ -108,6 +108,21 @@ df -> to show you the original df is not edited
 
 df.info()
 
+```commandline
+(your-project-name-py3.11) clement@Clements-Laptop lesson_6_revision_on_pandas % python 004_check_all_column_types.py
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 7 entries, 0 to 6
+Data columns (total 4 columns):
+ #   Column  Non-Null Count  Dtype 
+---  ------  --------------  ----- 
+ 0   name    7 non-null      object
+ 1   title   7 non-null      object
+ 2   age     7 non-null      int64 
+ 3   town    7 non-null      object
+dtypes: int64(1), object(3)
+memory usage: 356.0+ bytes
+```
+
 5. Check the type of a single column (pd.Series)
 
 series.dtype
