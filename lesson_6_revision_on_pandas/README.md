@@ -67,6 +67,15 @@ Getting first 3 rows with iloc
 2    elson  ahmad of malacca   29        hougang
 ```
 
+Get only Eugene and Gabe
+
+```commandline
+(your-project-name-py3.11) clement@Clements-Laptop lesson_6_revision_on_pandas % python 002_select_only_eugene_and_gabe.py 
+     name             title  age           town
+4  eugene  prince of taiwan   29  choa chu kang
+5    gabe          casanova   29        yew tee
+```
+
 3. Ordering rows in Data Frame by column
 
 This returns a copy of your pd.DataFrame, if inplace=False
