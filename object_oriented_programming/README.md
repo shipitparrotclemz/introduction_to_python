@@ -65,6 +65,12 @@ class DataFrame:
 df: pd.DataFrame = pd.DataFrame([{"name": "Aaron"}])
 ```
 
+## Practice 0: Pulse check questions
+
+Q: What is an object, in your own words?
+
+Q: What is a class?
+
 ## Practice 1: Creating your first class!
 
 Create a Nurse class, which has the following attributes
@@ -81,3 +87,11 @@ Create a nurse, by calling the constructor
 
 Hint: To call the constructor, to create a nurse object
 - `ClassName(input1, input2)`
+
+## Practice 3: Creating our first method (function in a class)
+
+A nurse can clean up shit
+
+Let's define our first function that takes in an integer, which represents the amount of shit
+
+The method will reduce that shit
