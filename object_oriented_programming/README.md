@@ -64,3 +64,20 @@ class DataFrame:
 # you are really calling DataFrame's __init__ function to create a dataframe
 df: pd.DataFrame = pd.DataFrame([{"name": "Aaron"}])
 ```
+
+## Practice 1: Creating your first class!
+
+Create a Nurse class, which has the following attributes
+- name: str
+- age: int
+
+Define a constructor (`def __init__(self, name: str, age: int) -> None`)
+
+So your colleagues can use this constructor to create a nurse
+
+## Practice 2: Creating our first Nurse
+
+Create a nurse, by calling the constructor
+
+Hint: To call the constructor, to create a nurse object
+- `ClassName(input1, input2)`
