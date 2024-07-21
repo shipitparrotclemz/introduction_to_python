@@ -83,8 +83,8 @@ Concepts:
 Side Concept:
 - Tracing 
 
-Q: What is the difference between """""" and # 
-- """""" -> this is a multi-line comment
+Q: What is the difference between """ """ and # 
+- """ """ -> this is a multi-line comment
 # -> single line comments
 comments are pieces of text not considered as instructions
 they are used to take notes
@@ -93,8 +93,8 @@ to communicate with other SWEs on micro-details in code
 
 Concept: high-light code and use command + / on apple to mass comment code
 """
-current_sum: int = 0    # 1
-for num in my_list: # -1
+current_sum: int = 0  # 1
+for num in my_list:  # -1
     current_sum = current_sum + num
     # new concept: you can shorten 88 with +=
     # += it adds the number directly to current_sum
@@ -121,7 +121,9 @@ final_value: int = 0
 operations: list[str] = ["++X", "X--", "++X", "--X"]
 
 for operation in operations:
-    if operation == "++X" or operation == "X++":    # str, ==, if-else, True or True -> True
+    if (
+        operation == "++X" or operation == "X++"
+    ):  # str, ==, if-else, True or True -> True
         final_value += 1
     else:
         final_value -= 1

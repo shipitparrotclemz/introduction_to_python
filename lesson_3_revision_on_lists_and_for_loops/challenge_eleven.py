@@ -11,5 +11,5 @@ you will do range(100,2)
 and python mistake 100 for start instead of end
 and 2 as end instead of step
 """
-for i in range(0,101,2):
+for i in range(0, 101, 2):
     print(i)

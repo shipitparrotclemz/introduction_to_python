@@ -69,8 +69,8 @@ Pointer
 - box that contain an addreess
 """
 
-my_list: list[int] = [1, 2, 3]      # 0x123
-my_another_list: list[int] = my_list    # 0X123
+my_list: list[int] = [1, 2, 3]  # 0x123
+my_another_list: list[int] = my_list  # 0X123
 
 """
 Hypothesis

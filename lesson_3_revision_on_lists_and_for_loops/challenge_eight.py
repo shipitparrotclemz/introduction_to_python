@@ -16,7 +16,7 @@ create a range object range(0,4)
 use for loop to get items in a range
 """
 
-my_range_object: range = range(1,4)
+my_range_object: range = range(1, 4)
 
 for num in my_range_object:
     print(num)

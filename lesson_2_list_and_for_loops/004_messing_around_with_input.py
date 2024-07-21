@@ -15,7 +15,7 @@ what will the code's behaviour be?
 
 my_list: list[str] = ["weixuan", "aaron"]
 
-for name in my_list:            # 2 times
+for name in my_list:  # 2 times
     my_input: str = input()
     my_list.append(my_input)
 

@@ -49,7 +49,9 @@ Concepts:
 # we are only putting words into words, when we encounter a space
 # the last word doesn't have a space at the back
 # we will miss out the last word
-words: list[str] = []   # ["vivian", "doesn't", "look", "at", "looks", "she", "only", "cares", about"]
+words: list[
+    str
+] = []  # ["vivian", "doesn't", "look", "at", "looks", "she", "only", "cares", about"]
 current_word: str = ""  # "personality"
 sentence: str = "vivian doesn't look at looks she only cares about personality"
 #                                                                            ^

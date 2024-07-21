@@ -22,6 +22,10 @@ Define a list[str] with 3 cakes
 
 Tip: you can't put commas and spaces in variable names
 """
-my_cakes: list[str] = ["Cheese Cake", "Wei Xuan's Cheese Cake", "Vivian's Favourite Cheese Cake"]
+my_cakes: list[str] = [
+    "Cheese Cake",
+    "Wei Xuan's Cheese Cake",
+    "Vivian's Favourite Cheese Cake",
+]
 wei_xuan_cheese_cake: str = my_cakes[1]
 print(my_cakes[1])

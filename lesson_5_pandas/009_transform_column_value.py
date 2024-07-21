@@ -46,8 +46,3 @@ if __name__ == "__main__":
     df["salary"] = increased_salary_copy_two
     print("DF after transformation:")
     print(df)
-
-
-
-
-

@@ -10,5 +10,5 @@ assign it to a variable named result
 num1: int = 8
 num2: int = 4
 num3: int = 10
-result: bool = num3 > num1 * num2   # 10 < 8 * 4 -> 10 < 32
+result: bool = num3 > num1 * num2  # 10 < 8 * 4 -> 10 < 32
 print(result)

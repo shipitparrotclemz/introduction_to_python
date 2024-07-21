@@ -12,7 +12,7 @@ if __name__ == "__main__":
     False (gabe)
     False (wei xuan)
     """
-    filter_only_gabe: pd.Series = (df["name"] == "gabe")
+    filter_only_gabe: pd.Series = df["name"] == "gabe"
     """
     filter_only_gabe
     False (aaron)
@@ -23,7 +23,7 @@ if __name__ == "__main__":
     True (gabe)
     False (wei xuan)
     """
-    filter_only_eugene: pd.Series = (df["name"] == "eugene")
+    filter_only_eugene: pd.Series = df["name"] == "eugene"
     """
     | here means an OR
     

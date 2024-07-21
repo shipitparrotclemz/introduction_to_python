@@ -2,18 +2,10 @@ import pandas as pd
 from typing import Any
 
 my_list: list[dict[str, Any]] = [
-    {
-        "name": "xuan", "likes": "chocolate cake", "age": 29
-    },
-    {
-        "name": "aaron", "likes": "taiwan girls", "age": 29
-    },
-    {
-        "name": "clement", "likes": "short taiwan girls", "age": 29
-    },
-    {
-        "name": "elson", "likes": "scam auntie money", "age": 29
-    }
+    {"name": "xuan", "likes": "chocolate cake", "age": 29},
+    {"name": "aaron", "likes": "taiwan girls", "age": 29},
+    {"name": "clement", "likes": "short taiwan girls", "age": 29},
+    {"name": "elson", "likes": "scam auntie money", "age": 29},
 ]
 
 df: pd.DataFrame = pd.DataFrame(my_list)

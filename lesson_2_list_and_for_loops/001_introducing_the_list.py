@@ -15,7 +15,7 @@ Concept: .append() magic wand
 
 Adds an item to the back of the list
 """
-drink_orders: list[str] = []    # ["Ultimate Mocha"]
+drink_orders: list[str] = []  # ["Ultimate Mocha"]
 # drink_orders.append("Ultimate Mocha")
 drink_orders = ["Ultimate Mocha"]
 print(drink_orders)

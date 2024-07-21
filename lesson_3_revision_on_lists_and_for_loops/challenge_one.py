@@ -8,7 +8,7 @@ Bonus points if you use
 - for-loop with range
 """
 
-my_list: list[int] = [1,2,3]
+my_list: list[int] = [1, 2, 3]
 my_list.append(4)
 my_list.append(5)
 my_list.append(6)

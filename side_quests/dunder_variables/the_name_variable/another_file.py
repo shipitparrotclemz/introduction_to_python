@@ -1,6 +1,7 @@
 def multiply(a: int, b: int) -> int:
     return a * b
 
+
 # this is the __name__ variable belonging to
 # another_file.py
 # print(f"another_file: __name__: {__name__}")
