@@ -17,5 +17,3 @@ A: When you import another python file, in the main file
 When you import another file, in a main file, it will run that file from top to bottom
 Each file has it's own __name__ variable
 """
-
-from another_file import multiply
