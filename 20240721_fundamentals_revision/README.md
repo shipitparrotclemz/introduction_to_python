@@ -12,7 +12,15 @@ python3 creating_an_int.py
 
 ### float
 
+```commandline
+python3 creating_a_float.py
+```
+
 ### bool
+
+```commandline
+python3 creating_a_bool.py
+```
 
 ### str
 
