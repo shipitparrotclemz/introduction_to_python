@@ -84,3 +84,8 @@ sorted_list: list[int] = sorted(my_list)
 print(my_list)  # [1, 2, 3, 4]
 ```
 
+## Q4: Finding two numbers that add to a target number
+
+```python3
+my_list: list[int] 
+```
