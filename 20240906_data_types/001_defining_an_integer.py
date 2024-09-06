@@ -9,3 +9,4 @@ assign the value to 10
 
 print my_int
 """
+my_int: int = 10
