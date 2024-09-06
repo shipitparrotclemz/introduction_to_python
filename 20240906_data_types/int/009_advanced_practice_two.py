@@ -15,6 +15,7 @@ Concepts:
 - float * int = float
 - int / int  = float
 - int * int = int
+- your * occurs first before +, if you want to + first, put brackets
 """
 
 stock_value: int = 10 * 10  # 100
