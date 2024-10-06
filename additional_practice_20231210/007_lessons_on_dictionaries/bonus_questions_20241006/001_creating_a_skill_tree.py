@@ -51,6 +51,46 @@ skill_tree: dict[str, dict[str, dict[str, dict[str, Any]]]] = {
 # 2. time.sleep(1) -> allows you to wait for 1 second before running
 # 3. input() -> stops the program and wait for a str input from user. save the result into a variable
 # 4. \n -> new line character
+
+"""
+Create a script which can support the following operations:
+
+Take in a Job
+Take in a number
+- 0 -> list all skills
+- 1 -> add a skill
+- 2 -> update a skill
+- 3 -> delete a skill
+
+1. List all skills for a given class, along with it's stats
+    - max level
+    - damage multiplier
+    - hits
+    
+2. Add a skill
+    - Add the skill name
+    - Add the three stats (max_level, damage_multiplier, hits)
+    
+3. Update a skill
+    - for the skill name
+    - ask for the stat to update
+    - after updating, ask user to type Y to continue, else N to go back to main menu
+    
+4. Delete a skill
+    - ask for skill name
+    - prompt user if he really wants to delete, Y to delete, N to not delete
+    - ask for another skill to delete, Y to continue, N to delete
+    - if N, go back to main menu
+"""
 while True:
-    input_from_user: str = input("Please enter your job:\n")
-    print(f"Received input: {input_from_user}")
+    job: str = input("Please enter your job:\n")
+    print(f"Received Job: {job}")
+    number_description: str = """
+Please enter your operation:
+0 to list all skills
+1 to add a skill
+2 to edit a skill
+3 to delete a skill
+"""
+    operation: str = input(number_description)
+    print(f"Received operation: {operation}")
