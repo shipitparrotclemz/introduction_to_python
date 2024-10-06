@@ -30,15 +30,9 @@ character_info: dict[str, dict[str, Any]] = {
         "luk": 10,
         "job": "thief",
         "inventory": [
-            {
-                "item name": "topaz ore",
-                "quantity": 100
-            },
-            {
-                "item name": "green mushroom cap",
-                "quantity": 100
-            }
-        ]
+            {"item name": "topaz ore", "quantity": 100},
+            {"item name": "green mushroom cap", "quantity": 100},
+        ],
     },
     "aaron": {
         "str": 90,
@@ -47,15 +41,9 @@ character_info: dict[str, dict[str, Any]] = {
         "luk": 40,
         "job": "magician",
         "inventory": [
-            {
-                "item_name": "jr balrog's hat",
-                "quantity": 1
-            },
-            {
-                "item_name": "elemental wand",
-                "quantity": 1
-            }
-        ]
+            {"item_name": "jr balrog's hat", "quantity": 1},
+            {"item_name": "elemental wand", "quantity": 1},
+        ],
     },
     "clement": {
         "str": 999,
@@ -63,7 +51,7 @@ character_info: dict[str, dict[str, Any]] = {
         "dex": 40,
         "luk": 70,
         "job": "archer",
-        "inventory": []
+        "inventory": [],
     },
 }
 

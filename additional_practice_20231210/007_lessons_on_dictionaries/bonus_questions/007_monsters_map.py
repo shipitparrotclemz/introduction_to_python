@@ -5,6 +5,7 @@ dict["level_key": str,
     ]
 ]
 """
+
 from typing import Any
 
 ludibrium_pq_monsters: dict[str, list[dict[str, Any]]] = {
@@ -14,7 +15,7 @@ ludibrium_pq_monsters: dict[str, list[dict[str, Any]]] = {
                 "level": 35,
                 "hp": 1050,
                 "weakness": ["fire", "ice"],
-                "quantity": 50
+                "quantity": 50,
             }
         },
         {
@@ -22,9 +23,9 @@ ludibrium_pq_monsters: dict[str, list[dict[str, Any]]] = {
                 "level": 35,
                 "hp": 1050,
                 "weakness": ["fire", "ice"],
-                "quantity": 20
+                "quantity": 20,
             }
-        }
+        },
     ]
 }
 

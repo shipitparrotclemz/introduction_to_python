@@ -7,7 +7,7 @@ character_info: dict[str, dict[str, Any]] = {
         "int": 999,
         "dex": 4,
         "luk": 4,
-        "inventory": []
+        "inventory": [],
     },
     "weixuan9595": {
         "job": "warrior",
@@ -15,7 +15,7 @@ character_info: dict[str, dict[str, Any]] = {
         "int": 999,
         "dex": 4,
         "luk": 4,
-        "inventory": []
+        "inventory": [],
     },
     "aaronongtongong": {
         "job": "hunter",
@@ -23,7 +23,7 @@ character_info: dict[str, dict[str, Any]] = {
         "int": 999,
         "dex": 50,
         "luk": 4,
-        "inventory": []
+        "inventory": [],
     },
     "xiaoclemz": {
         "job": "scammer",
@@ -31,8 +31,8 @@ character_info: dict[str, dict[str, Any]] = {
         "int": 60,
         "dex": 32,
         "luk": 4,
-        "inventory": []
-    }
+        "inventory": [],
+    },
 }
 item_popped: dict[str, Any] = character_info.pop("xiaoclemz", {})
 print(item_popped)

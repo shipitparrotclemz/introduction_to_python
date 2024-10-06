@@ -1,6 +1,7 @@
 """
 character_info[character_name: str, dict[info_key: str, value: Any]]
 """
+
 from typing import Any
 
 character_info: dict[str, dict[str, Any]] = {
@@ -10,7 +11,7 @@ character_info: dict[str, dict[str, Any]] = {
         "int": 999,
         "dex": 4,
         "luk": 4,
-        "inventory": []
+        "inventory": [],
     },
     "aaronongtongong": {
         "job": "hunter",
@@ -18,7 +19,7 @@ character_info: dict[str, dict[str, Any]] = {
         "int": 999,
         "dex": 50,
         "luk": 4,
-        "inventory": []
+        "inventory": [],
     },
     "xiaoclemz": {
         "job": "pirate",
@@ -26,17 +27,14 @@ character_info: dict[str, dict[str, Any]] = {
         "int": 60,
         "dex": 32,
         "luk": 4,
-        "inventory": []
-    }
+        "inventory": [],
+    },
 }
 
 aaron_dict: dict[str, Any] = character_info["aaronongtongong"]
 aaron_dict["str"] += 5
 character_info["weixuan9595"]["job"] = "Spearman"
 character_info["weixuan9595"]["inventory"].append(
-    {
-        "item name": "zakum helm",
-        "quantity": 1
-    }
+    {"item name": "zakum helm", "quantity": 1}
 )
 print(character_info)
