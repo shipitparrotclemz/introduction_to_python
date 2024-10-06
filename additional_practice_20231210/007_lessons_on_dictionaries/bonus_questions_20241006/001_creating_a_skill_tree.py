@@ -49,6 +49,10 @@ skill_tree: dict[str, dict[str, dict[str, dict[str, Any]]]] = {
 # New concepts:
 # 1. while <bool>
 # 2. time.sleep(1) -> allows you to wait for 1 second before running
-while True:
-    time.sleep(1)  # wait for 1 second befor running
-    print("Please enter your input")
+
+# E.G print from 1 to 10 with a while loop
+start: int = 1
+end: int = 10
+while start <= end: # 11 <= 10 -> False
+    print(start)    # print(10)
+    start += 1      # start = 11
