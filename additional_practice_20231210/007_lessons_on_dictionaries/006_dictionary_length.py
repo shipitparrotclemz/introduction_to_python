@@ -3,6 +3,7 @@
 - Define a dictionary my_dict containing keys 'a', 'b', 'c', 'd' with corresponding values 1, 2, 3, 4
 - Calculate and print the length of my_dict
 """
+
 my_dict: dict[str, int] = {
     "a": 1,
     "b": 2,

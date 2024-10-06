@@ -6,7 +6,13 @@
 
 ```commandline
 python3 001_creating_dictionary.py 
-{'one': 1, 'two': 2, 'three': 3, 'four': 4, 'five': 5}
+{
+    'one': 1, 
+    'two': 2, 
+    'three': 3, 
+    'four': 4, 
+    'five': 5
+}
 ```
 
 ## Challenge 2: Accessing Elements in a Dictionary

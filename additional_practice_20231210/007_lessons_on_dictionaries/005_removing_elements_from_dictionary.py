@@ -4,6 +4,7 @@
 - Remove the key-value pair 'age': 25 from my_dict
 - Print my_dict
 """
+
 my_dict: dict[str, str | int] = {"name": "Alice", "age": 25, "city": "New York"}
 my_dict.pop("age")
 print(my_dict)
