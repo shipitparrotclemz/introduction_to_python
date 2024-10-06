@@ -56,7 +56,7 @@ Take in a number
     - if N, go back to main menu
 """
 while True:
-    job: str = input("Please enter your job:\n")
+    job: str = input("Please enter your job:\n").lower()
     print(f"Received Job: {job}")
     number_description: str = """
 Please enter your operation:
