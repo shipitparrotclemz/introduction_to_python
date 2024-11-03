@@ -2,6 +2,7 @@
 Your company wants you to do some data transformation on data
 """
 
+
 # def <name_of_function>(<name_of_input_one>: type_hint, <name_of_input_two>: type_hint) -> <output_type>:
 def filter_out_values(input_list: list[str], filter_list: list[str]) -> list[str]:
     filtered_values: list[str] = []

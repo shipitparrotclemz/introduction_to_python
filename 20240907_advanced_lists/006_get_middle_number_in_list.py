@@ -1,4 +1,4 @@
-my_list: list[int] = [num**2 for num in range(1,101)]
+my_list: list[int] = [num**2 for num in range(1, 101)]
 
 """
 get the middle number in the list

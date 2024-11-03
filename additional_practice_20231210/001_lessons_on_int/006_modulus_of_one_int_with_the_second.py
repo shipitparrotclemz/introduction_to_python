@@ -6,6 +6,7 @@
 - Assign it to a variable named remainder_int
 - Print it
 """
+
 first_int: int = 15
 second_int: int = 7
 third_int: int = first_int % second_int

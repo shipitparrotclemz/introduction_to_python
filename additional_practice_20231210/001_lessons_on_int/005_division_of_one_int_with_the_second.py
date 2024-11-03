@@ -6,6 +6,7 @@ Challenge 5: Creating two ints and dividing the first int by the second int
   - Assign it to a variable named `third_float`
 - Print it
 """
+
 first_int: int = 10
 second_int: int = 10
 third_float: float = first_int / second_int

@@ -5,6 +5,7 @@
 - Convert my_str to uppercase and assign it to a variable named uppercase_str
 - Print both lowercase_str and uppercase_str
 """
+
 my_str: str = "HeLLo, HoW ArE YoU?"
 lowercase_str: str = my_str.lower()
 uppercase_str: str = my_str.upper()

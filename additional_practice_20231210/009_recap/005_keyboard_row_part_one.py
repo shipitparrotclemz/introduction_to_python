@@ -39,7 +39,3 @@ for word in words:
     if first_char in second_row:
         answer.append(word)
 print(answer)
-
-
-
-

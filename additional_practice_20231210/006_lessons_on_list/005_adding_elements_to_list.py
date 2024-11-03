@@ -4,6 +4,7 @@
 - Add 4 and 5 to the end of my_list
 - Print my_list
 """
+
 my_list: list[int] = [1, 2, 3]
 my_list.append(4)
 my_list.append(5)

@@ -8,12 +8,14 @@ Check if the user wants to
 4) delete a skill
 """
 
-input_str: str = input("""Please enter
+input_str: str = input(
+    """Please enter
 - 1 to list all skills
 - 2 to add a skill
 - 3 to update a skill
 4 to delete a skill
-""")
+"""
+)
 
 if input_str == "1":
     print("Listing all skill")
@@ -25,5 +27,3 @@ elif input_str == "4":
     print("Deleting a skill")
 else:
     print("Invalid Input")
-
-

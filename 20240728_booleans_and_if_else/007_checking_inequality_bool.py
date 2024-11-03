@@ -4,6 +4,7 @@
 - Define a boolean object that checks if num1 is not equal to num2 using the != operator and assign it to a variable named not_equal
 - Print not_equal
 """
+
 num1: int = 10
 num2: int = 5
 not_equal: bool = num1 != num2

@@ -12,6 +12,7 @@ give type hint of int
 
 print my_third_int
 """
+
 my_first_one: int = 10
 my_second_one: int = 20
 my_three_one: int = my_first_one - my_second_one

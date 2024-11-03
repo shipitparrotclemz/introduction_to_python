@@ -5,6 +5,7 @@
   - If true, print "Number is greater than 5"
   - Else, print "Number is not greater than 5"
 """
+
 num: int = 10
 if num > 5:
     print("Number is greater than 5")

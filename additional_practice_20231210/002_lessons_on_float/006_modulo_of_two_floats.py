@@ -6,6 +6,7 @@
 - Assign its value to a variable named modulo_float
 - Print it
 """
+
 first_float: float = 17.5
 second_float: float = 4.3
 third_float: float = first_float % second_float

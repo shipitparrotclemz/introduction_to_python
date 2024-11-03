@@ -10,4 +10,3 @@ if the length of the list is more than 5:
 else:
     print("the list contains 5 or less items")
 """
-

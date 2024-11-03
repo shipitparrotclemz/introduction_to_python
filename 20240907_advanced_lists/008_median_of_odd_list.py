@@ -10,6 +10,7 @@ median = 50
 
 get the median of the list
 """
+
 my_list: list[int] = [num for num in range(1, 100)]
 length_of_list: int = len(my_list)
 index_of_list: int = length_of_list // 2

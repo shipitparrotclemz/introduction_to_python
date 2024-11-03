@@ -9,6 +9,7 @@ then, you sort it
 
 then you find median of it
 """
+
 import random
 
 my_list: list[int] = [num for num in range(1, 100)]

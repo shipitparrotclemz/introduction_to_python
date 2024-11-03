@@ -12,6 +12,3 @@ Hint: Use number % 2 and compare with == to check if a number is even
 if number % 2 == 0:
     print("It's even!")
 """
-
-
-

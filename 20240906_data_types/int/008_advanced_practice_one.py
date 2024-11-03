@@ -22,4 +22,5 @@ Print out stocks_to_buy_at_time_zero
 
 You have to define 5 variables
 """
+
 price_option_up_time_one: int = 200

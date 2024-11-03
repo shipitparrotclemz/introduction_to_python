@@ -10,5 +10,3 @@ for num in range(1, 101):
     multiplied_by_two: int = num * 2
     my_list.append(multiplied_by_two)
 print(my_list)
-
-

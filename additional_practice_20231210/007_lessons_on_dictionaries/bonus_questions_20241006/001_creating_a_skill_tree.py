@@ -1,6 +1,7 @@
 """
 Create a skill tree for jobs
 """
+
 import time
 from typing import Any
 

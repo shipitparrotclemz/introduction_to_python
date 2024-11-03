@@ -7,6 +7,7 @@ Challenge 1:
 
 here, we define a list with 3 eggs
 """
+
 # my_list: list[int] = [10, 90, 100]
 # print(my_list)
 

@@ -12,6 +12,7 @@ WARNING: pop() method on list is expensive, and requires a full iteration of the
 
 We usually don't use it in technical interviews
 """
+
 my_list: list[int] = [10, 20, 30, 40, 50]
 my_list.pop(2)
 print(my_list)

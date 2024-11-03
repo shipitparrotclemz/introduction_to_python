@@ -28,6 +28,7 @@ If elson and clement and gabriel and weixuan fucked up
 
 New: Creating a new data structure: list[str]
 """
+
 elson_fucked_up: bool = False
 clement_fucked_up: bool = True
 gabriel_fucked_up: bool = True
@@ -36,10 +37,10 @@ weixuan_fucked_up: bool = True
 list_of_fuck_ups: list[str] = []
 
 # if <bool>:
-    # if <bool> is True, then execute this
+# if <bool> is True, then execute this
 if elson_fucked_up:
     # new concept: use .append() on the list, to add a new item to the list
-    list_of_fuck_ups.append("Elson")    # list_of_fuck_ups = ["Elson"]
+    list_of_fuck_ups.append("Elson")  # list_of_fuck_ups = ["Elson"]
 if clement_fucked_up:
     list_of_fuck_ups.append("Clement")
 if gabriel_fucked_up:

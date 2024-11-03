@@ -11,7 +11,7 @@ else:
     print("the list contains 5 or less items")
 """
 
-my_list: list[int] = [1,2,3,4,5]
+my_list: list[int] = [1, 2, 3, 4, 5]
 length_of_list: int = len(my_list)
 
 if length_of_list > 5:

@@ -5,6 +5,7 @@
 - Check if my_str ends with "amazing" and assign the result to a boolean variable named ends_with_amazing
 - Print both starts_with_python and ends_with_amazing
 """
+
 my_str: str = "Python is amazing"
 starts_with_python: bool = my_str.startswith("Python")
 ends_with_amazing: bool = my_str.endswith("amazing")

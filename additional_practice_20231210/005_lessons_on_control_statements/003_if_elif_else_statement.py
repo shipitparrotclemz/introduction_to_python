@@ -7,6 +7,7 @@
 - Else if marks is greater than or equal to 70, print "Grade C"
 - Else, print "Grade D"
 """
+
 marks: int = 85
 if marks >= 90:
     print("Grade A")

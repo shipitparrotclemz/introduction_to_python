@@ -9,7 +9,6 @@ Concepts:
 """
 
 my_list: list[int] = []
-for i in range(5,16):
+for i in range(5, 16):
     my_list.append(i)
 print(my_list)
-

@@ -4,6 +4,7 @@
 - Add elements 10, 20, 30 to my_set
 - Print my_set
 """
+
 my_set: set[int] = set()
 my_set.add(10)
 my_set.add(20)

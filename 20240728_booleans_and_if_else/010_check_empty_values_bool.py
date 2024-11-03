@@ -19,6 +19,6 @@ True
 empty_list: list[str] = []
 # New Concept: if you put the `not` keyword in front of a data structure like list
 # it will return True, if the data structure is empty
-is_empty: bool = not empty_list     # False
+is_empty: bool = not empty_list  # False
 # False
 print(is_empty)

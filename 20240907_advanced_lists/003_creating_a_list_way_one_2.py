@@ -8,4 +8,3 @@ my_list: list[int] = []
 for num in range(1, 101):
     my_list.append(num * 2)
 print(my_list)
-

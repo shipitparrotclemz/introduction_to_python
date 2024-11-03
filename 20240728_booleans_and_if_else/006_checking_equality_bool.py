@@ -4,6 +4,7 @@
 - Define a boolean object that checks if str1 is equal to str2 using the == operator and assign it to a variable named equal
 - Print equal
 """
+
 str1: str = "hello"
 str2: str = "Hello"
 equal: bool = str1 == str2

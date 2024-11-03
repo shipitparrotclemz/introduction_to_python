@@ -18,5 +18,6 @@ New Data Structure: List
 
 syntax means the structure of a language
 """
+
 my_list: list[int] = [1, 2, 3, 4, 5]
 print(my_list)

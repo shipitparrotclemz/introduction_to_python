@@ -7,6 +7,7 @@ greater than num3 using a combination of *, >, and and operators and
 assign it to a variable named result
 - Print result
 """
+
 num1: int = 8
 num2: int = 4
 num3: int = 10

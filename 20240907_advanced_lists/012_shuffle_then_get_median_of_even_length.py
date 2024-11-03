@@ -9,6 +9,7 @@ then get median
 
 but, your median is (item at index 49 + item at index 50) / 2
 """
+
 import random
 
 my_list: list[int] = [num for num in range(1, 101)]

@@ -18,6 +18,14 @@ To get Gabriel
 my_list[0]
 """
 
-my_list: list[str] = ["Gabriel", "Aaron", "Clement", "Xuan", "Vivienne", "Elson", "Eugene"]
+my_list: list[str] = [
+    "Gabriel",
+    "Aaron",
+    "Clement",
+    "Xuan",
+    "Vivienne",
+    "Elson",
+    "Eugene",
+]
 elson_index: int = my_list.index("Elson")
 print(my_list[elson_index])

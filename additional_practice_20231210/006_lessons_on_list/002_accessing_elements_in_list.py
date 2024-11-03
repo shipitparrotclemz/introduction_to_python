@@ -9,6 +9,7 @@ Introduce the concept of an index -> the address of every item in the list
 
 my_list[2]
 """
+
 my_list: list[int] = [10, 20, 30, 40, 50]
 third_element: int = my_list[2]
 print(third_element)

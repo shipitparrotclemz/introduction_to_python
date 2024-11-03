@@ -6,6 +6,7 @@ variables named num1 and num2 respectively
 using the > operator and assign it to a variable named greater_than
 - Print greater_than
 """
+
 num1: int = 10
 num2: int = 5
 greater_than: bool = num1 > num2

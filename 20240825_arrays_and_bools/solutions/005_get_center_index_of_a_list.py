@@ -24,7 +24,7 @@ my_list_of_names: list[str] = [
     "Ariel",
     "Clement",
     "Vivienne",
-    "Weiyan"
+    "Weiyan",
 ]
 center_index: int = len(my_list_of_names) // 2
 print(center_index)

@@ -19,6 +19,7 @@ Objective:
 my_list [0x123] -> contains address to list
 it is not the list itself
 """
+
 """
 When you create a variable two and assign it to
 another variable one

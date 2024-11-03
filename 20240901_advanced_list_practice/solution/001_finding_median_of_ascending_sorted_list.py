@@ -12,14 +12,14 @@ list_is_even: bool = length_of_list % 2 == 0
 
 # simplicity: assume list is guaranteed to have at least 1 number
 
-median: int | float # | is a shortcut for Union, available from python3.10
+median: int | float  # | is a shortcut for Union, available from python3.10
 
 if list_is_even:
     # solution for even length is here
-    center_right_index: int = length_of_list // 2   # index 5, points at 6
-    center_left_index: int = center_right_index - 1 # index 4, points at 5
-    center_right: int = my_list[center_right_index] # my_list[5], 6
-    center_left: int = my_list[center_left_index]   # my_list[4], 5
+    center_right_index: int = length_of_list // 2  # index 5, points at 6
+    center_left_index: int = center_right_index - 1  # index 4, points at 5
+    center_right: int = my_list[center_right_index]  # my_list[5], 6
+    center_left: int = my_list[center_left_index]  # my_list[4], 5
     median = (center_right + center_left) / 2
 else:
     # solution for odd length is here

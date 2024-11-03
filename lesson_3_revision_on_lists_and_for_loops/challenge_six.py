@@ -1,6 +1,7 @@
 """
 Challenge 6 is just Challenge 5 with for-loops and range
 """
+
 my_list: list[int] = [1, 2, 3, 4, 5]
 
 """

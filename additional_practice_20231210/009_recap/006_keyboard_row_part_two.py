@@ -34,11 +34,11 @@ third_row: set[str] = set("ZXCVBNM")
 
 answer: list[str] = []
 for word in words:  # word = "DAD"
-    first_char: str = word[0].upper()   # "D"
-    if first_char in first_row: # "D" in "QWERTYUIOP" -> False
+    first_char: str = word[0].upper()  # "D"
+    if first_char in first_row:  # "D" in "QWERTYUIOP" -> False
         row = first_row
     elif first_char in second_row:  # "D" in "ASDFGHJKL" -> True
-        row = second_row    # row = "ASDFGHJKL"
+        row = second_row  # row = "ASDFGHJKL"
     else:
         row = third_row
     # Step 2: Check all characters in the string, if they belong to the row
@@ -55,9 +55,4 @@ for word in words:  # word = "DAD"
 print(answer)
 
 
-
 print(answer)
-
-
-
-

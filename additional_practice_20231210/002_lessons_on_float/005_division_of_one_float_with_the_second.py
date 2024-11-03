@@ -6,6 +6,7 @@
 - Assign its value to a variable named third_float
 - Print it
 """
+
 first_float: float = 20.0
 second_float: float = 4.0
 third_float: float = first_float / second_float

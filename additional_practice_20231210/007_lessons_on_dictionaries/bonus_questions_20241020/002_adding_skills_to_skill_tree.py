@@ -12,26 +12,16 @@ Warrior has a Power Strike skill
     }
 }
 """
+
 from typing import Any
 
 skill_tree: dict[str, Any] = {
     "warrior": {
-        "skills": {
-            "Sword Mastery": {
-                "max_level": 20,
-                "damage_multiplier": 0.0
-            }
-        }
+        "skills": {"Sword Mastery": {"max_level": 20, "damage_multiplier": 0.0}}
     },
-    "magician": {
-        "skills": {}
-    },
-    "archer": {
-        "skills": {}
-    },
-    "thief": {
-        "skills": {}
-    },
+    "magician": {"skills": {}},
+    "archer": {"skills": {}},
+    "thief": {"skills": {}},
 }
 
 """
@@ -45,18 +35,11 @@ Step 2: Editing it
 """
 warrior_dict: dict[str, Any] = skill_tree["warrior"]
 warrior_skill_dict: dict[str, Any] = warrior_dict["skills"]
-warrior_skill_dict["Power Strike"] = {
-    "max_level": 20,
-    "damage_multiplier": 5.0
-}
+warrior_skill_dict["Power Strike"] = {"max_level": 20, "damage_multiplier": 5.0}
 
 
 magician_dict: dict[str, Any] = skill_tree["magician"]
 magician_skill_dict: dict[str, Any] = warrior_dict["skills"]
-magician_skill_dict["Magic Claw"] = {
-    "max_level": 20,
-    "damage_multiplier": 3.0
-}
+magician_skill_dict["Magic Claw"] = {"max_level": 20, "damage_multiplier": 3.0}
 
 print(skill_tree)
-

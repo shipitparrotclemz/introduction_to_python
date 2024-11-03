@@ -6,6 +6,7 @@ Challenge 3: Creating two ints and minus the first int with the second int
   - Assign it's address to a variable named `third_int`
 - Print it
 """
+
 first_int: int = 10
 second_int: int = 10
 third_int: int = first_int - second_int

@@ -6,6 +6,7 @@
 - Else if equal, print "You are a teenager"
 - Else, print "You are a child"
 """
+
 age: int = 18
 if age > 18:
     print("You are an adult")

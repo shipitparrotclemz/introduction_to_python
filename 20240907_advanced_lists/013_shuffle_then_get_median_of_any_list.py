@@ -14,6 +14,7 @@ then use if-else statement to decide if you should use odd or even solution
 hint:
 is_even: bool = len(my_list) % 2 == 0
 """
+
 import random
 
 # NEW CONCEPT: CREATING A RE-USABLE PIECE OF CODE
@@ -62,5 +63,3 @@ else:
     median_of_list: int = test_case_one_list[index_of_list]
 
 print(median_of_list)
-
-

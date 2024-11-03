@@ -18,5 +18,3 @@ my_list: list[int] = [5, 2, 6, 1, 3]
 my_sorted_list: list[int] = sorted(my_list)
 print(my_sorted_list)
 print(my_list)
-
-

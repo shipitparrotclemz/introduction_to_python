@@ -1,5 +1,6 @@
 from typing import List
 
+
 class Solution:
     def replaceElements(self, arr: List[int]) -> List[int]:
         """
@@ -31,7 +32,7 @@ class Solution:
         # iterate from the first number to the second last number
         for index in range(0, len(arr) - 1):
             # get the greatest element to the right of the current number
-            greatest_element_to_right: int = max(arr[index + 1:])
+            greatest_element_to_right: int = max(arr[index + 1 :])
             # assign the current element with the greatest element among elements to its right
             arr[index] = greatest_element_to_right
         # replace the last element with -1

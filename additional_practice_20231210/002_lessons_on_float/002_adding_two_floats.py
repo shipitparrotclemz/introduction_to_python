@@ -5,6 +5,7 @@ Challenge 2: Creating two floats and adding them
 - Define a third floating-point object as the sum of first_float and second_float with the + operator
 - Assign its value to a variable named third_float
 """
+
 first_float: float = 10.5
 second_float: float = 5.2
 third_float: float = first_float + second_float

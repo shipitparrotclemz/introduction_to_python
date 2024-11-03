@@ -3,6 +3,7 @@ Challenge 10:
 
 10,000 to 0
 """
+
 # range_object: range = range(10, -1, -1)
 # for i in range_object:
 #     print(i)

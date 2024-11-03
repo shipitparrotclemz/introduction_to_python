@@ -1,6 +1,7 @@
 """
 How does python manage memory
 """
+
 # my_string: str = "cheese"
 # print(type(my_string))
 

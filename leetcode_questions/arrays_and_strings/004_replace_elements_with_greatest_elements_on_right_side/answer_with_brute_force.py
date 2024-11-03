@@ -29,7 +29,9 @@ class Solution:
             # get the greatest element to the right of the current number
             greatest_element_to_right: int = arr[index + 1]
             for right_index in range(index + 2, len(arr)):
-                greatest_element_to_right = max(greatest_element_to_right, arr[right_index])
+                greatest_element_to_right = max(
+                    greatest_element_to_right, arr[right_index]
+                )
             # assign the current element with the greatest element among elements to its right
             arr[index] = greatest_element_to_right
         # replace the last element with -1

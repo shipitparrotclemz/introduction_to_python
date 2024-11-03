@@ -4,6 +4,7 @@
 - Replace all occurrences of "cats" with "birds" in my_str and assign it to a variable named new_str
 - Print new_str
 """
+
 my_str: str = "I like cats, but I also like dogs"
 new_str: str = my_str.replace("cats", "birds")
 print(new_str)

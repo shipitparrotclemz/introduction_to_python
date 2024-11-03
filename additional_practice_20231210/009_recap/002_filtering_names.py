@@ -6,7 +6,7 @@ my_names: list[str] = [
     "Elson",
     "Gabriel",
     "Wei Xuan",
-    "Joyce"
+    "Joyce",
 ]
 
 # Challenge: Give a list of names, which contains only names with 5 characters
@@ -16,4 +16,3 @@ for names in my_names:
     if len(names) == 5:
         answer.append(names)
 print(answer)
-

@@ -12,6 +12,6 @@ my_list_length: int = len(my_list)
 print(my_list_length)
 """
 
-my_list: list[int] = [1,3,5]
+my_list: list[int] = [1, 3, 5]
 my_list_length: int = len(my_list)
 print(my_list_length)

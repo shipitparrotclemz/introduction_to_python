@@ -9,6 +9,7 @@ The statement below does two things
 - It creates `10` as an object, and saves it on our machine, at an address e.g 0x123
 - It creates first_int as a variable, storing the address of where `10` is created (0x123)
 """
+
 first_int: int = 10
 
 """

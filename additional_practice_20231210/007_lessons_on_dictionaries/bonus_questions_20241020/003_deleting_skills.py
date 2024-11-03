@@ -12,20 +12,9 @@ Step 2: Delete
 
 skill_tree: dict[str, Any] = {
     "warrior": {
-        "skills": {
-            "Sword Mastery": {
-                "max_level": 20,
-                "damage_multiplier": 0.0
-            }
-        }
+        "skills": {"Sword Mastery": {"max_level": 20, "damage_multiplier": 0.0}}
     },
-    "magician": {
-        "skills": {}
-    },
-    "archer": {
-        "skills": {}
-    },
-    "thief": {
-        "skills": {}
-    },
+    "magician": {"skills": {}},
+    "archer": {"skills": {}},
+    "thief": {"skills": {}},
 }

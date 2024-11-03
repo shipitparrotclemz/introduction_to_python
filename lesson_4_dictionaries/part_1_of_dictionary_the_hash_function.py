@@ -22,6 +22,7 @@ The number must be 0 <= X < length_of_list - 1
 - % as a hack, to convert an integer within a range of 0 to length_of_list
 number % length_of_list -> 0 to length_of_list - 1
 """
+
 length_of_list: int = 1024
 my_list: list[str | None] = [None] * length_of_list
 wei_xuan: str = "Wei Xuan"

@@ -4,6 +4,7 @@
 - Negate my_bool using the not operator and assign it to a variable named negated_bool
 - Print negated_bool
 """
+
 my_bool: bool = False
 negated_bool: bool = not my_bool
 print(negated_bool)

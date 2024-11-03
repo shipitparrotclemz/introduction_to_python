@@ -22,5 +22,7 @@ stock_value: int = 10 * 10  # 100
 stock_value_after_one_year: float = 1.06 * stock_value  # new: float * int = float
 interest_rate_value: int = 100
 interest_rate_value_after_one_year: float = 1.05 * interest_rate_value
-portfolio_after_one_year: float = stock_value_after_one_year + interest_rate_value_after_one_year
-print(portfolio_after_one_year)     # 211.0
+portfolio_after_one_year: float = (
+    stock_value_after_one_year + interest_rate_value_after_one_year
+)
+print(portfolio_after_one_year)  # 211.0

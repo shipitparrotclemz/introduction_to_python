@@ -6,6 +6,7 @@ Challenge 4: Creating two ints and multiplying the first int by the second int
   - Assign it to a variable named `third_int`
 - Print it
 """
+
 first_int: int = 10
 second_int: int = 10
 third_int: int = first_int * second_int

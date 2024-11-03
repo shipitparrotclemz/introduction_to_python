@@ -6,6 +6,7 @@ def price_of_portfolio(part_one: int, part_two: int) -> int:
     """
     return part_one + part_two
 
+
 print(price_of_portfolio(100, 200))
 print(price_of_portfolio(200, 200))
 print(price_of_portfolio(300, 300))

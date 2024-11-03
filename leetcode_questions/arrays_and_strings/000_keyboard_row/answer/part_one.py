@@ -1,5 +1,6 @@
 from typing import List
 
+
 class Solution:
     def findWords(self, words: List[str]) -> List[int]:
         """
@@ -17,7 +18,7 @@ class Solution:
         third_row: str = "ZXCVBNM"
         answer: list[int] = []
         for word in words:  # "Hello"
-            first_char: str = word[0].upper()   # "H"
+            first_char: str = word[0].upper()  # "H"
             if first_char in first_row:
                 row_index = 0
             elif first_char in second_row:
@@ -30,6 +31,6 @@ class Solution:
 
 if __name__ == "__main__":
     solution: Solution = Solution()
-    words = ["Hello","Alaska","Dad","Peace"]
+    words = ["Hello", "Alaska", "Dad", "Peace"]
     answer: List[int] = solution.findWords(words)
     assert answer == [1, 1, 1, 0]
